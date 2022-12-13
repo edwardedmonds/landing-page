@@ -1,1 +1,14 @@
 /* Landing Page */
+
+/* Embed 'Roboto Regular 400' from fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
