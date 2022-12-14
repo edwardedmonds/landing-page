@@ -7,8 +7,116 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
 }
 
-html {
-  font-family: 'Roboto', sans-serif;
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+}
+
+.hero-box, .card-box, .attention-box, .call-to-action-box {
+  flex-grow: 1;
+}
+
+.header-box, .hero-box, .footer {
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-box ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-box ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid pink;
+  gap: 50px;
+}
+
+.hero-box div {
+  flex-grow: 1;
+  max-width: 400px;
+  border: 1px solid pink;
+}
+
+.hero-box button {
+  background-color: #3882f6;
+  color: #fff;
+  font-weight: bold;
+}
+
+.hero-box p {
+  color: #e5e7eb;
+}
+
+.card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rebeccapurple;
+}
+
+.card-box .cards {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid seagreen;
+  gap: 50px;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid orangered;
+  min-width: 175px;
+  flex-basis: 200px;
+}
+
+.attention-box {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.attention-box p {
+  max-width: 600px;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.call-to-action-box {
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action-box div {
+  max-width: 400px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
 }
